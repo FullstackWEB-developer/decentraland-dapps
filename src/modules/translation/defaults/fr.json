@@ -1,0 +1,101 @@
+{
+  "@dapps": {
+    "footer": {
+      "button": {
+        "network_not_supported": "Vous devez être connecté à {expectedChainName} pour effectuer cette action"
+      },
+      "dropdown": {
+        "en": "Anglais",
+        "es": "Espanol",
+        "fr": "Français",
+        "ja": "Japonais",
+        "ko": "Coréen",
+        "zh": "Chinois"
+      },
+      "links": {
+        "content": "Contenu",
+        "ethics": "Code d'éthique",
+        "home": "Accueil",
+        "privacy": "Confidentialité",
+        "terms": "Conditions d'utilisation"
+      }
+    },
+    "navbar": {
+      "account": {
+        "connecting": "De liaison...",
+        "signIn": "Se connecter"
+      },
+      "menu": {
+        "avatars": "Avatars",
+        "agora": "Agora",
+        "blog": "Blog",
+        "docs": "Docs",
+        "marketplace": "Marketplace",
+        "builder": "Builder",
+        "events": "Events",
+        "dao": "DAO"
+      },
+      "wrong_network": {
+        "header": "Mauvais réseau",
+        "message": "Vous devez être connecté au réseau {expectedChainName} pour utiliser cette application, mais vous êtes actuellement connecté au réseau {currentChainName}.",
+        "message_unknown_network": "Vous devez être connecté à {expectedChainName} pour utiliser cette application, veuillez changer de réseau pour continuer.",
+        "switch_button": "Passer à {chainName}"
+      },
+      "partially_supported_network": {
+        "header": "Réseau partiellement pris en charge",
+        "message": "Vous devez être connecté à {expectedChainName} pour utiliser toutes les fonctionnalités de cette application. De cette façon, toutes les transactions qui devraient se produire sur d'autres réseaux seraient envoyées en tant que méta-transactions. Étant donné que vous êtes actuellement connecté à {currentChainName}, vous ne pourrez utiliser que les fonctionnalités de cette application qui interagissent avec ce réseau particulier, et vous devrez payer les coûts de gaz de ces transactions.",
+        "continue_button": "Continuer sur {chainName}"
+      }
+    },
+    "sign_in": {
+      "connect": "Relier",
+      "connected": "Connecté",
+      "connecting": "De liaison...",
+      "error": "Impossible de se connecter au portefeuille.",
+      "get_started": "Commencer",
+      "options": {
+        "desktop": "Vous pouvez utiliser l'extension {metamask_link} ou un portefeuille matériel comme {ledger_nano_link}.",
+        "mobile": "Vous pouvez utiliser des navigateurs mobiles tels que {coinbase_link} ou {imtoken_link}.",
+        "samsung": "Vous pouvez utiliser {samsung_link}."
+      },
+      "modal": {
+        "title": "Se connecter",
+        "subtitle": "Choisissez une méthode de connexion",
+        "using": {
+          "browser_extension": "Utiliser une extension de navigateur",
+          "email": "Utiliser votre email",
+          "mobile": "Utiliser votre portefeuille mobile"
+        }
+      }
+    },
+    "user_menu": {
+      "sign_in": "Se Connecter",
+      "sign_out": "Se Déconnecter",
+      "guest": "Invité",
+      "settings": "Paramètres",
+      "account": "Compte"
+    },
+    "toasts": {
+      "meta_transactions": {
+        "contract_account_error": {
+          "title": "Portefeuille non pris en charge",
+          "body": "Les portefeuilles de contrats intelligents ne sont pas pris en charge pour les méta-transations. Vous pouvez basculer votre réseau vers Polygon et envoyer une transaction régulière."
+        },
+        "invalid_address_error": {
+          "title": "Adresse invalide",
+          "body": "L'adresse du contrat n'est pas disponible pour les méta-transactions. Vous pouvez basculer votre réseau vers Polygon et envoyer une transaction régulière."
+        },
+        "sale_price_too_low_error": {
+          "title": "Prix trop bas",
+          "body": "Le prix est trop bas pour cette méta-transaction. Vous pouvez basculer votre réseau vers Polygon et envoyer une transaction régulière."
+        },
+        "unknown_error": {
+          "title": "Quelque chose s'est mal passé",
+          "body": "Une erreur inattendue s'est produite lors de l'envoi de la méta-transaction. Vous pouvez basculer votre réseau vers Polygon et essayer d'envoyer une transaction normale."
+        }
+      },
+      "switch_network": "Passer à {network}",
+      "learn_more": "En savoir plus"
+    }
+  }
+}

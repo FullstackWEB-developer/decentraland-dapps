@@ -1,0 +1,109 @@
+{
+  "@dapps": {
+    "button": {
+      "network_not_supported": "You need to be connected to {expectedChainName} to perform this action"
+    },
+    "footer": {
+      "dropdown": {
+        "en": "English",
+        "es": "Spanish",
+        "fr": "French",
+        "ja": "Japanese",
+        "ko": "Korean",
+        "zh": "Chinese"
+      },
+      "links": {
+        "content": "Content Policy",
+        "ethics": "Code of Ethics",
+        "home": "Home",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use"
+      }
+    },
+    "navbar": {
+      "account": {
+        "connecting": "Connecting...",
+        "signIn": "Sign In"
+      },
+      "menu": {
+        "avatars": "Avatars",
+        "agora": "Agora",
+        "blog": "Blog",
+        "docs": "Docs",
+        "marketplace": "Marketplace",
+        "builder": "Builder",
+        "events": "Events",
+        "dao": "DAO"
+      },
+      "wrong_network": {
+        "header": "Wrong Network",
+        "message": "You need to be connected to {expectedChainName} to use this app, but you are currently connected to {currentChainName}.",
+        "message_unknown_network": "You need to be connected to {expectedChainName} to use this app, please switch your network to continue.",
+        "switch_button": "Switch to {chainName}",
+        "sign_out": "Sign Out"
+      },
+      "partially_supported_network": {
+        "header": "Partially Supported Network",
+        "message": "You need to be connected to {expectedChainName} to use all the features of this app. That way, all the transactions that should happen on other networks would be sent as meta-transactions. Since you are currently connected to {currentChainName}, you will only be able to use the features of this app that interact with that particular network, and you will need to pay for the gas costs of those transactions.",
+        "continue_button": "Continue on {chainName}"
+      }
+    },
+    "sign_in": {
+      "connect": "Connect",
+      "connected": "Connected",
+      "connecting": "Connecting...",
+      "error": "Could not connect to wallet.",
+      "get_started": "Get Started",
+      "options": {
+        "connected": "You're already connected!",
+        "desktop": "You can use the {metamask_link} extension or your email account",
+        "mobile": "You can use mobile browsers such as {coinbase_link} or {imtoken_link}.",
+        "samsung": "You can use {samsung_link}."
+      }
+    },
+    "login": {
+      "modal": {
+        "title": "Sign In",
+        "subtitle": "Choose how you want to connect to Ethereum.",
+        "error": "Could not connect to wallet.",
+        "supported_wallets": "Trezor and smart contract wallets like Dapper, Argent or Gnosis safe, do not work with Polygon. Read more about the Trezor support status {trezor_link}",
+        "trezor_link": "here"
+      },
+      "option": {
+        "browser_extension": "Using a browser extension",
+        "email": "Using your email",
+        "mobile": "Using a mobile wallet",
+        "mobile_and_browser": "Using your mobile or browser extension"
+      }
+    },
+    "user_menu": {
+      "sign_in": "Sign In",
+      "sign_out": "Sign Out",
+      "guest": "Guest",
+      "settings": "Settings",
+      "account": "Account"
+    },
+    "toasts": {
+      "meta_transactions": {
+        "contract_account_error": {
+          "title": "Wallet not supported",
+          "body": "Smart contract wallets are not supported for meta-transations. You can switch your network to Polygon and send a regular transaction."
+        },
+        "invalid_address_error": {
+          "title": "Invalid address",
+          "body": "The contract address is not available for meta-transactions. You can switch your network to Polygon and send a regular transaction."
+        },
+        "sale_price_too_low_error": {
+          "title": "Price too low",
+          "body": "The price is too low for this meta-transaction. You can switch your network to Polygon and send a regular transaction."
+        },
+        "unknown_error": {
+          "title": "Something went wrong",
+          "body": "There was an unexpected error sending the meta-transaction. You can switch your network to Polygon and try sending a regular transaction."
+        }
+      },
+      "switch_network": "Switch to {network}",
+      "learn_more": "Learn more"
+    }
+  }
+}

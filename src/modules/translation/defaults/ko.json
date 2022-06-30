@@ -1,0 +1,101 @@
+{
+  "@dapps": {
+    "button": {
+      "network_not_supported": "이 작업을 수행하려면 {expectedChainName}에 연결해야 합니다."
+    },
+    "footer": {
+      "dropdown": {
+        "en": "영어",
+        "es": "스페인 사람",
+        "fr": "프랑스 국민",
+        "ja": "일본어",
+        "ko": "한국어",
+        "zh": "중국말"
+      },
+      "links": {
+        "content": "콘텐츠 정책",
+        "ethics": "윤리 강령",
+        "home": "집",
+        "privacy": "개인 정보 정책",
+        "terms": "이용 약관"
+      }
+    },
+    "navbar": {
+      "account": {
+        "connecting": "연결 중 ...",
+        "signIn": "로그인"
+      },
+      "menu": {
+        "avatars": "Avatars",
+        "agora": "Agora",
+        "blog": "Blog",
+        "docs": "Docs",
+        "marketplace": "Marketplace",
+        "builder": "Builder",
+        "events": "Events",
+        "dao": "DAO"
+      },
+      "wrong_network": {
+        "header": "잘못된 네트워크",
+        "message": "이 앱을 사용하려면 {expectedChainName} 네트워크에 연결되어 있어야하지만 현재 {currentChainName} 네트워크에 연결되어 있습니다.",
+        "message_unknown_network": "이 앱을 사용하려면 {expectedChainName}에 연결해야 합니다. 계속하려면 네트워크를 전환하세요.",
+        "switch_button": "{chainName}(으)로 전환"
+      },
+      "partially_supported_network": {
+        "header": "부분적으로 지원되는 네트워크",
+        "message": "이 앱의 모든 기능을 사용하려면 {expectedChainName}에 연결해야 합니다. 이렇게 하면 다른 네트워크에서 발생해야 하는 모든 트랜잭션이 메타 트랜잭션으로 전송됩니다. 현재 {currentChainName}에 연결되어 있으므로 해당 네트워크와 상호 작용하는 이 앱의 기능만 사용할 수 있으며 해당 거래의 가스 비용을 지불해야 합니다.",
+        "continue_button": "{chainName}에서 계속"
+      }
+    },
+    "sign_in": {
+      "connect": "잇다",
+      "connected": "연결됨",
+      "connecting": "연결 중 ...",
+      "error": "지갑에 연결할 수 없습니다.",
+      "get_started": "시작하다",
+      "options": {
+        "desktop": "{metamask_link} 확장 또는 {ledger_nano_link}과 같은 하드웨어 지갑을 사용할 수 있습니다.",
+        "mobile": "{coinbase_link} 또는 {imtoken_link}과 같은 모바일 브라우저를 사용할 수 있습니다.",
+        "samsung": "{samsung_link}를 사용할 수 있습니다."
+      },
+      "modal": {
+        "title": "로그인",
+        "subtitle": "연결할 방법 선택",
+        "using": {
+          "browser_extension": "브라우저 확장 사용",
+          "email": "이메일 사용",
+          "mobile": "모바일 지갑 사용"
+        }
+      }
+    },
+    "user_menu": {
+      "sign_in": "로그인",
+      "sign_out": "로그 아웃",
+      "guest": "손님",
+      "settings": "설정",
+      "account": "계정"
+    },
+    "toasts": {
+      "meta_transactions": {
+        "contract_account_error": {
+          "title": "지갑이 지원되지 않음",
+          "body": "스마트 계약 지갑은 메타 거래를 지원하지 않습니다. 네트워크를 Polygon으로 전환하고 일반 거래를 보낼 수 있습니다."
+        },
+        "invalid_address_error": {
+          "제목": "잘못된 주소",
+          "body": "메타 트랜잭션에 사용할 수 있는 계약 주소가 없습니다. 네트워크를 Polygon으로 전환하고 일반 트랜잭션을 보낼 수 있습니다."
+        },
+        "sale_price_too_low_error": {
+          "title": "가격이 너무 저렴하다",
+          "body": "이 메타 거래에 대한 가격이 너무 낮습니다. 네트워크를 Polygon으로 전환하고 일반 트랜잭션을 보낼 수 있습니다."
+        },
+        "unknown_error": {
+          "title": "문제가 발생했습니다",
+          "body": "메타 트랜잭션을 보내는 동안 예기치 않은 오류가 발생했습니다. 네트워크를 Polygon으로 전환하고 일반 트랜잭션을 보내보십시오."
+        }
+      },
+      "switch_network": "{네트워크}로 전환",
+      "learn_more": "자세히 알아보기"
+    }
+  }
+}

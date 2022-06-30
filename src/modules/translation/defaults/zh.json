@@ -1,0 +1,109 @@
+{
+  "@dapps": {
+    "button": {
+      "network_not_supported": "您需要连接到 {expectedChainName} 才能执行此操作"
+    },
+    "footer": {
+      "dropdown": {
+        "en": "英语",
+        "es": "西班牙语",
+        "fr": "法语",
+        "ja": "日语",
+        "ko": "韩文",
+        "zh": "中文"
+      },
+      "links": {
+        "content": "内容政策",
+        "ethics": "道德准则",
+        "home": "主页",
+        "privacy": "隐私政策",
+        "terms": "使用条款"
+      }
+    },
+    "navbar": {
+      "account": {
+        "connecting": "正在连接...",
+        "signIn": "登陆"
+      },
+      "menu": {
+        "avatars": "Avatars",
+        "agora": "Agora",
+        "blog": "Blog",
+        "docs": "Docs",
+        "marketplace": "Marketplace",
+        "builder": "Builder",
+        "events": "Events",
+        "dao": "DAO"
+      },
+      "wrong_network": {
+        "header": "网络错误",
+        "message": "您需要连接到{expectedChainName}网络才能使用此应用，但您当前已连接到{currentChainName}网络。",
+        "message_unknown_network": "您需要连接到 {expectedChainName} 才能使用此应用，请切换您的网络以继续。",
+        "switch_button": "切换到 {chainName}",
+        "sign_out": "登出"
+      },
+      "partially_supported_network": {
+        "header": "部分支持的网络",
+        "message": "您需要连接到 {expectedChainName} 才能使用此应用的所有功能。这样，所有应该在其他网络上发生的交易都将作为元交易发送。由于您当前连接到 {currentChainName}，您将只能使用此应用程序与该特定网络交互的功能，并且您需要支付这些交易的 gas 费用。",
+        "continue_button": "继续 {chainName}"
+      }
+    },
+    "sign_in": {
+      "connect": "连接",
+      "connected": "已连接",
+      "connecting": "连接中 ...",
+      "error": "无法连接到钱包。",
+      "get_started": "开始",
+      "options": {
+        "connected": "您已经连接！",
+        "desktop": "您可以使用{metamask_link}扩展名或您的电子邮件帐户",
+        "mobile": "您可以使用移动浏览器，如 {coinbase_link} 或 {imtoken_link}。",
+        "samsung": "您可使用{samsung_link}。"
+      }
+    },
+    "login": {
+      "modal": {
+        "title": "登入",
+        "subtitle": "选择一种连接方式",
+        "error": "无法连接到钱包。",
+        "supported_wallets": "不支持 Contract 和 Trezor 钱包与 Polygon 交互。阅读有关 Trezor 集成的更多信息 {trezor_link}",
+        "trezor_link": "这里"
+      },
+      "option": {
+        "browser_extension": "使用浏览器扩展",
+        "email": "使用您的电子邮件",
+        "mobile": "使用您的手机钱包",
+        "mobile_and_browser": "使用您的移动或浏览器扩展程序"
+      }
+    },
+    "user_menu": {
+      "sign_in": "登入",
+      "sign_out": "登出",
+      "guest": "来宾",
+      "settings": "设定值",
+      "account": "帐户"
+    },
+    "toasts": {
+      "meta_transactions": {
+        "contract_account_error": {
+          "title": "不支持钱包",
+          "body": "元交易不支持智能合约钱包。您可以将网络切换到 Polygon 并发送常规交易。"
+        },
+        "invalid_address_error": {
+          "title": "无效地址",
+          "body": "合约地址不可用于元交易。您可以将您的网络切换到 Polygon 并发送常规交易。"
+        },
+        "sale_price_too_low_error": {
+          "title": "价格太低了",
+          "body": "这个元交易的价格太低了。您可以将您的网络切换到 Polygon 并发送常规交易。"
+        },
+        "unknown_error": {
+          "title": "出了点问题",
+          "body": "发送元交易时出现意外错误。您可以将网络切换到 Polygon 并尝试发送常规交易。"
+        }
+      },
+      "switch_network": "切换到 {network}",
+      "learn_more": "了解更多"
+    }
+  }
+}

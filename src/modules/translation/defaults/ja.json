@@ -1,0 +1,101 @@
+{
+  "@dapps": {
+    "button": {
+      "network_not_supported": "このアクションを実行するには、{expectedChainName}に接続する必要があります"
+    },
+    "footer": {
+      "dropdown": {
+        "en": "英語",
+        "es": "スペイン語",
+        "fr": "フランス語",
+        "ja": "日本語",
+        "ko": "韓国語",
+        "zh": "中国語"
+      },
+      "links": {
+        "content": "コンテンツポリシー",
+        "ethics": "倫理規定",
+        "home": "ホーム",
+        "privacy": "個人情報保護方針",
+        "terms": "利用規約"
+      }
+    },
+    "navbar": {
+      "account": {
+        "connecting": "接続中...",
+        "signIn": "サインイン"
+      },
+      "menu": {
+        "avatars": "Avatars",
+        "agora": "Agora",
+        "blog": "Blog",
+        "docs": "Docs",
+        "marketplace": "Marketplace",
+        "builder": "Builder",
+        "events": "Events",
+        "dao": "DAO"
+      },
+      "wrong_network": {
+        "header": "間違ったネットワーク",
+        "message": "このアプリを使用するには、{expectedChainName}ネットワークに接続する必要がありますが、現在は{currentChainName}ネットワークに接続しています。",
+        "message_unknown_network": "このアプリを使用するには、{expectedChainName}に接続する必要があります。続行するには、ネットワークを切り替えてください。",
+        "switch_button": "{chainName}に切り替えます"
+      },
+      "partially_supported_network": {
+        "header": "部分的にサポートされているネットワーク",
+        "message": "このアプリのすべての機能を使用するには、{expectedChainName}に接続する必要があります。そうすれば、他のネットワークで発生するはずのすべてのトランザクションがメタトランザクションとして送信されます。現在{currentChainName}に接続しているため、このアプリの特定のネットワークとやり取りする機能のみを使用でき、これらのトランザクションのガス代を支払う必要があります。",
+        "continue_button": "{chainName}に進みます"
+      }
+    },
+    "sign_in": {
+      "connect": "接続する",
+      "connected": "接続済み",
+      "connecting": "接続中...",
+      "error": "ウォレットに接続できませんでした。",
+      "get_started": "開始する",
+      "options": {
+        "desktop": "{metamask_link}拡張や{ledger_nano_link}のようなハードウェアウォレットを使用できます。",
+        "mobile": "{coinbase_link}や{imtoken_link}などのモバイルブラウザを使用できます。",
+        "samsung": "{samsung_link}を使用できます。"
+      },
+      "modal": {
+        "title": "サインイン",
+        "subtitle": "接続する方法を選択してください",
+        "using": {
+          "browser_extension": "ブラウザ拡張機能の使用",
+          "email": "メールを使用する",
+          "mobile": "モバイルウォレットの使用"
+        }
+      }
+    },
+    "user_menu": {
+      "sign_in": "ログイン",
+      "sign_out": "サインアウト",
+      "guest": "ゲスト",
+      "settings": "設定",
+      "account": "アカウント"
+    },
+    "toasts": {
+      "meta_transactions": {
+        "contract_account_error": {
+          "タイトル": "ウォレットはサポートされていません",
+          "body": "スマートコントラクトウォレットはメタトランザクションではサポートされていません。ネットワークをPolygonに切り替えて,通常のトランザクションを送信できます。"
+        },
+        "invalid_address_error": {
+          "タイトル": "無効なアドレス",
+          "body": "契約アドレスはメタトランザクションには使用できません。ネットワークをPolygonに切り替えて,通常のトランザクションを送信できます。"
+        },
+        "sale_price_too_low_error": {
+          "title": "価格も",
+          "body": "このメタトランザクションには価格が低すぎます。ネットワークをPolygonに切り替えて,通常のトランザクションを送信できます。"
+        },
+        "unknown_error": {
+          "title": "「問題が発生しました」",
+          "body": "メタトランザクションの送信中に予期しないエラーが発生しました。ネットワークをPolygonに切り替えて,通常のトランザクションを送信してみてください。"
+        }
+      },
+      "switch_network": "{network}に切り替え",
+      "learn_more": "詳細"
+    }
+  }
+}
