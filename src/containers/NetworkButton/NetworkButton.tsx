@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button as ButtonComponent } from 'decentraland-ui/dist/components/Button/Button'
+import { Button as ButtonComponent } from 'dcl-ui/dist/components/Button/Button'
 import { Props } from './NetworkButton.types'
 import NetworkCheck from '../NetworkCheck'
 

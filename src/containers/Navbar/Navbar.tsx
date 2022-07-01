@@ -1,11 +1,11 @@
 import * as React from 'react'
 
-import { Button } from 'decentraland-ui/dist/components/Button/Button'
-import { ModalNavigation } from 'decentraland-ui/dist/components/ModalNavigation/ModalNavigation'
+import { Button } from 'dcl-ui/dist/components/Button/Button'
+import { ModalNavigation } from 'dcl-ui/dist/components/ModalNavigation/ModalNavigation'
 import {
   Navbar as NavbarComponent,
   NavbarI18N
-} from 'decentraland-ui/dist/components/Navbar/Navbar'
+} from 'dcl-ui/dist/components/Navbar/Navbar'
 import { getChainName } from '@dcl/schemas/dist/dapps/chain-id'
 import { T } from '../../modules/translation/utils'
 import Modal from '../../containers/Modal'

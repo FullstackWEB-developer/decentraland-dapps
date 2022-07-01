@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { LoginModalProps } from 'decentraland-ui/dist/components/LoginModal/LoginModal'
+import { LoginModalProps } from 'dcl-ui/dist/components/LoginModal/LoginModal'
 import {
   getError,
   isEnabling,
@@ -34,8 +34,4 @@ const mergeProps = (
   ...ownProps
 })
 
-export default connect(
-  mapState,
-  mapDispatch,
-  mergeProps
-)(LoginModal)
+export default connect(mapState, mapDispatch, mergeProps)(LoginModal)

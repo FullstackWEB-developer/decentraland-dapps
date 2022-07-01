@@ -1,6 +1,6 @@
 import React from 'react'
-import { Toasts } from 'decentraland-ui/dist/components/Toasts/Toasts'
-import { Toast } from 'decentraland-ui/dist/components/Toast/Toast'
+import { Toasts } from 'dcl-ui/dist/components/Toasts/Toasts'
+import { Toast } from 'dcl-ui/dist/components/Toast/Toast'
 
 import { DefaultProps, Props } from './ToastProvider.types'
 

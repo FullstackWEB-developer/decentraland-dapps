@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Profile as BaseProfile } from 'decentraland-ui/dist/components/Profile/Profile'
+import { Profile as BaseProfile } from 'dcl-ui/dist/components/Profile/Profile'
 import { Props } from './Profile.types'
 
 export default class Profile extends React.PureComponent<Props> {

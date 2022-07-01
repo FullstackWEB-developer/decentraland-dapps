@@ -1,4 +1,4 @@
-import { ToastPosition } from 'decentraland-ui/dist/components/Toasts/Toasts'
+import { ToastPosition } from 'dcl-ui/dist/components/Toasts/Toasts'
 
 import { Toast } from '../../modules/toast/types'
 import { hideToast } from '../../modules/toast/actions'

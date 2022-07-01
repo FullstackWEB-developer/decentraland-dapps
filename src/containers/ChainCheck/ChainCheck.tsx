@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popup } from 'decentraland-ui/dist/components/Popup/Popup'
+import { Popup } from 'dcl-ui/dist/components/Popup/Popup'
 import { T } from '../../modules/translation/utils'
 import { Props } from './ChainCheck.types'
 import ChainProvider from '../ChainProvider'

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { Locale } from 'decentraland-ui/dist/components/Language/Language'
+import { Locale } from 'dcl-ui/dist/components/Language/Language'
 
 import Footer from './Footer'
 import { FooterProps, MapDispatchProps, MapStateProps } from './Footer.types'
@@ -33,8 +33,4 @@ const mergeProps = (
   ...ownProps
 })
 
-export default connect(
-  mapState,
-  mapDispatch,
-  mergeProps
-)(Footer) as any
+export default connect(mapState, mapDispatch, mergeProps)(Footer) as any

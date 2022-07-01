@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { Locale } from 'decentraland-ui/dist/components/Language/Language'
+import { Locale } from 'dcl-ui/dist/components/Language/Language'
 
 import TranslationProvider from './TranslationProvider'
 import {
@@ -43,7 +43,4 @@ const mapDispatch = (dispatch: RootDispatch): MapDispatchProps => ({
     dispatch(fetchTranslationsRequest(locale))
 })
 
-export default connect(
-  mapState,
-  mapDispatch
-)(TranslationProvider) as any
+export default connect(mapState, mapDispatch)(TranslationProvider) as any

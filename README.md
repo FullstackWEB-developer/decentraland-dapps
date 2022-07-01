@@ -1013,7 +1013,7 @@ export { default as HelpModal } from './HelpModal'
 Each modal will receive the properties defined on the `ModalComponent` type, found on `modules/modal/types`, so for example:
 
 ```tsx
-import { Modal } from 'decentraland-ui/dist/components/Modal/Modal'
+import { Modal } from 'dcl-ui/dist/components/Modal/Modal'
 import { ModalProps } from 'decentraland-dapps/dist/modules/modal/types'
 
 type HelpModalProps = ModalProps & {
@@ -1030,7 +1030,7 @@ export default class HelpModal extends React.Component<HelpModalProps> {
 }
 ```
 
-If want to use [decentraland-ui's Modal](https://github.com/decentraland/ui) but you don't want to repeat the `open`, `className` and `onClose` props, you can use this module's [Modal](https://github.com/decentraland/decentraland-dapps#modal)
+If want to use [dcl-ui's Modal](https://github.com/decentraland/ui) but you don't want to repeat the `open`, `className` and `onClose` props, you can use this module's [Modal](https://github.com/decentraland/decentraland-dapps#modal)
 
 **Reducer**:
 
@@ -1088,7 +1088,7 @@ showToast(toast: Omit<Toast, 'id'>)
 hideToast(id: number)
 ```
 
-You can check the properties a toast has [here](/src/modules/toast/types.ts). It extends the props already defined on [decentraland-ui's toast](https://github.com/decentraland/ui/blob/master/src/components/Toast/Toast.tsx)
+You can check the properties a toast has [here](/src/modules/toast/types.ts). It extends the props already defined on [dcl-ui's toast](https://github.com/decentraland/ui/blob/master/src/components/Toast/Toast.tsx)
 
 It also provides a selector to get the open toasts:
 
@@ -1295,7 +1295,7 @@ Common containers for dApps
 
 ## Navbar
 
-The `<Navbar>` container can be used in the same way as the `<Navbar>` component from [decentraland-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `NavbarProp` if you want to connect differently, and you can pass all the regular `NavbarProps` to it.
+The `<Navbar>` container can be used in the same way as the `<Navbar>` component from [dcl-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `NavbarProp` if you want to connect differently, and you can pass all the regular `NavbarProps` to it.
 
 ### Dependencies
 
@@ -1308,7 +1308,7 @@ This is an example of a `SomePage` component that uses the `<Navbar>` container:
 ```tsx
 import * as React from 'react'
 
-import { Container } from 'decentraland-ui/dist/components/Container/Container'
+import { Container } from 'dcl-ui/dist/components/Container/Container'
 import Navbar from 'decentraland-dapps/dist/containers/Navbar'
 
 import './SomePage.css'
@@ -1372,7 +1372,7 @@ Say you want to override some translations in English, just include any or all o
 
 ## Footer
 
-The `<Footer>` container can be used in the same way as the `<Footer>` component from [decentraland-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `FooterProps` if you want to connect differently, and you can pass all the regular `FooterProps` to it.
+The `<Footer>` container can be used in the same way as the `<Footer>` component from [dcl-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `FooterProps` if you want to connect differently, and you can pass all the regular `FooterProps` to it.
 
 ### Dependencies
 
@@ -1385,7 +1385,7 @@ This is an example of a `SomePage` component that uses the `<Footer>` container:
 ```tsx
 import * as React from 'react'
 
-import { Container } from 'decentraland-ui/dist/components/Container/Container'
+import { Container } from 'dcl-ui/dist/components/Container/Container'
 import Navbar from 'decentraland-dapps/dist/containers/Navbar'
 
 import './SomePage.css'
@@ -1449,7 +1449,7 @@ Say you want to override some translations in English, just include any or all o
 
 ## SignInPage
 
-The `<SignInPage>` container can be used in the same way as the `<SignIn>` component from [decentraland-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `SignInProp` if you want to connect differently, and you can pass all the regular `SignInProps` to it.
+The `<SignInPage>` container can be used in the same way as the `<SignIn>` component from [dcl-ui](https://github.com/decentraland/ui) but it's already connected to the redux store. You can override any `SignInProp` if you want to connect differently, and you can pass all the regular `SignInProps` to it.
 
 ### Dependencies
 
