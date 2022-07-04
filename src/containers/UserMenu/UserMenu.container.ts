@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
-import { Network } from '@dcl/schemas/dist/dapps/network'
+// import { Network } from '@dcl/schemas/dist/dapps/network'
+import { JSONSchema, ValidateFunction } from '@dcl/schemas/dist/validation'
 import { isPending } from '../../modules/transaction/utils'
 import {
   getAddress,
@@ -19,6 +20,22 @@ import {
   OwnProps
 } from './UserMenu.types'
 import UserMenu from './UserMenu'
+
+/**
+ * Different supported networks
+ * @alpha
+ */
+export declare enum Network {
+  ETHEREUM = 'ETHEREUM'
+  // MATIC = 'MATIC'
+}
+/**
+ * @alpha
+ */
+export declare namespace Network {
+  const schema: JSONSchema<Network>
+  const validate: ValidateFunction<Network>
+}
 
 const mapState = (state: any): MapStateProps => {
   const isSignedIn = isConnected(state)
@@ -64,8 +81,4 @@ const mergeProps = (
   ...ownProps
 })
 
-export default connect(
-  mapState,
-  mapDispatch,
-  mergeProps
-)(UserMenu)
+export default connect(mapState, mapDispatch, mergeProps)(UserMenu)
