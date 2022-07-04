@@ -1,6 +1,10 @@
 import { connect } from 'react-redux'
 // import { Network } from '@dcl/schemas/dist/dapps/network'
-import { JSONSchema, ValidateFunction } from '@dcl/schemas/dist/validation'
+import {
+  generateValidator,
+  JSONSchema,
+  ValidateFunction
+} from '@dcl/schemas/dist/validation'
 import { isPending } from '../../modules/transaction/utils'
 import {
   getAddress,
@@ -25,16 +29,21 @@ import UserMenu from './UserMenu'
  * Different supported networks
  * @alpha
  */
-export declare enum Network {
+export enum Network {
   ETHEREUM = 'ETHEREUM'
   // MATIC = 'MATIC'
 }
+
 /**
  * @alpha
  */
-export declare namespace Network {
-  const schema: JSONSchema<Network>
-  const validate: ValidateFunction<Network>
+export namespace Network {
+  export const schema: JSONSchema<Network> = {
+    type: 'string',
+    enum: Object.values(Network)
+  }
+
+  export const validate: ValidateFunction<Network> = generateValidator(schema)
 }
 
 const mapState = (state: any): MapStateProps => {
